@@ -806,8 +806,11 @@ h4 {
 	text-align: right;
 	position: absolute;
 	padding-top: 250px !important;
-	width: 90%;
+	width: auto;
+	margin-left: 59%;
+
 }
+
 
 .text_header_about {	
 	float: none;
@@ -1115,6 +1118,12 @@ h4 {
 
 @media only screen and (max-width: 1200px) {
 
+.text_header {	
+	width: auto;
+	margin: auto;
+	right: 5%;
+}
+	
 }
 
 @media only screen and (max-width: 992px) {
